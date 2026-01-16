@@ -38,7 +38,6 @@ This skill works with:
 
 - TypeScript/JavaScript
 - Python
-- Rust
 
 ## Installation
 
@@ -165,25 +164,21 @@ open-responses-agent-dev/
 Simple request with reasoning visibility:
 - `examples/typescript/basic-agent.ts`
 - `examples/python/basic_agent.py`
-- `examples/rust/basic_agent.rs`
 
 ### Sub-Agent Loop
 Multi-step workflows with tools:
 - `examples/typescript/sub-agent-loop.ts`
 - `examples/python/sub_agent_loop.py`
-- `examples/rust/sub_agent_loop.rs`
 
 ### Multi-Provider
 Provider switching via model suffix:
 - `examples/typescript/multi-provider.ts`
 - `examples/python/multi_provider.py`
-- `examples/rust/multi_provider.rs`
 
 ### Reasoning Visibility
 Accessing agent thinking:
 - `examples/typescript/reasoning-visibility.ts`
 - `examples/python/reasoning_visibility.py`
-- `examples/rust/reasoning_visibility.rs`
 
 ## Provider Suffixes
 
