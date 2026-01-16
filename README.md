@@ -146,8 +146,7 @@ open-responses-agent-dev/
 │       └── SKILL.md         # Main skill instructions
 ├── examples/                # Complete examples
 │   ├── typescript/          # TypeScript examples
-│   ├── python/              # Python examples
-│   └── rust/                # Rust examples
+│   └── python/              # Python examples
 ├── templates/               # Production-ready templates
 │   ├── typescript/          # TypeScript starter
 │   └── python/              # Python starter
