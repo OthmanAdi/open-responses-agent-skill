@@ -40,6 +40,51 @@ This skill works with:
 - Python
 - Rust
 
+## Installation
+
+### Claude Code
+
+Install this skill directly in Claude Code:
+
+```bash
+# Clone the repository
+git clone https://github.com/OthmanAdi/open-responses-agent-skill.git
+
+# Create skills directory if it doesn't exist
+mkdir -p ~/.claude/skills
+
+# Copy the skill
+cp -r open-responses-agent-skill/skills/open-responses-agent-dev ~/.claude/skills/
+
+# Restart Claude Code or reload skills
+```
+
+Or install via URL:
+```
+/skills add https://github.com/OthmanAdi/open-responses-agent-skill
+```
+
+### Cursor
+
+Copy the rules file:
+```bash
+mkdir -p .cursor/rules
+cp open-responses-agent-skill/.cursor/rules/open-responses-agent.mdc .cursor/rules/
+```
+
+### OpenCode / Codex
+
+Copy the configuration files:
+```bash
+# For OpenCode
+cp -r open-responses-agent-skill/.opencode .
+cp open-responses-agent-skill/AGENTS.md .
+
+# For Codex
+cp -r open-responses-agent-skill/.codex .
+cp open-responses-agent-skill/AGENTS.md .
+```
+
 ## Quick Start
 
 ### TypeScript (Recommended - Using OpenAI SDK)
