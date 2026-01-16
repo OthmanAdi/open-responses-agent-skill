@@ -129,6 +129,5 @@ for item in response.output:
 ## Supported Languages
 - TypeScript/JavaScript
 - Python
-- Rust
 
 See `examples/` and `templates/` directories for implementation patterns.
