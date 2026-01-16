@@ -1,0 +1,23 @@
+{
+  "name": "open-responses-agent-dev",
+  "version": "1.0.0",
+  "description": "Build autonomous agents in Rust, TypeScript, or Python using Open Responses API for seamless multi-provider support (OpenAI, Anthropic, HuggingFace, etc.)",
+  "author": "Ahmad Othman Adi",
+  "license": "MIT",
+  "repository": "https://github.com/OthmanAdi/open-responses-agent-dev",
+  "skills": [
+    "skills/open-responses-agent-dev"
+  ],
+  "keywords": [
+    "open-responses",
+    "agents",
+    "autonomous",
+    "multi-provider",
+    "typescript",
+    "python",
+    "rust",
+    "openai",
+    "anthropic",
+    "huggingface"
+  ]
+}
